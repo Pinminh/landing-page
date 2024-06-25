@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+  font-style: none;
+  text-decoration: none;
+  color: black;
+}
+
 /* General layout of header, content and footer */
 .body {
   display: flex;
@@ -37,7 +47,7 @@
   gap: 24px;
 }
 
-/* Layout of the introduction */
+/* Layout of the introduction section */
 .intro {
   display: flex;
   flex-wrap: wrap;
@@ -59,5 +69,32 @@
 }
 
 .intro img {
+  max-width: 100%;
+}
+
+/* Layout of information section */
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+  text-align: center;
+}
+
+.info .list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: baseline;
+  gap: 32px;
+}
+
+.info .list li {
+  width: 180px;
+}
+
+.info .list li img {
   max-width: 100%;
 }
