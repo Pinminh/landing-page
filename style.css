@@ -98,3 +98,16 @@ a {
 .info .list li img {
   max-width: 100%;
 }
+
+/* Layout of quotation section */
+.quote {
+  margin: 48px 0;
+  padding: 48px 64px;
+  background-color: lightgray;
+}
+
+.quote footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
