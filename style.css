@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General layout of header, content and footer */
+
+.body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.header {
+  flex: none;
+  background-color: gray;
+}
+
+.content {
+  flex: auto;
+}
+
+.footer {
+  flex: none;
+  background-color: gray;
+}
