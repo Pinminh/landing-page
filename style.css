@@ -47,6 +47,12 @@ a {
   gap: 24px;
 }
 
+.sign-up {
+  padding: 4px 24px;
+  border-radius: 8px;
+  flex: none;
+}
+
 /* Layout of the introduction section */
 .intro {
   display: flex;
@@ -111,3 +117,20 @@ a {
   justify-content: flex-end;
 }
 
+/* Layout of registration section */
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 48px 0;
+}
+
+.register .box {
+  width: fit-content;
+  border-radius: 8px;
+  background-color: lightblue;
+  padding: 32px 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
