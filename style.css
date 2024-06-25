@@ -5,7 +5,6 @@
 }
 
 /* General layout of header, content and footer */
-
 .body {
   display: flex;
   height: 100vh;
@@ -24,4 +23,41 @@
 .footer {
   flex: none;
   background-color: gray;
+}
+
+/* Layout of the header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 48px;
+}
+
+.header .nav {
+  display: flex;
+  gap: 24px;
+}
+
+/* Layout of the introduction */
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: gray;
+  gap: 32px;
+  padding: 48px;
+}
+
+.intro .text {
+  flex: 1;
+}
+
+.intro .image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.intro img {
+  max-width: 100%;
 }
